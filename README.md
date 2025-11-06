@@ -23,4 +23,11 @@ npm start
 
 ## Documentation
 
-See [VULNERABILITIES.md](VULNERABILITIES.md) for detailed documentation of all vulnerabilities and testing instructions.
+- [VULNERABILITIES.md](VULNERABILITIES.md) - Detailed documentation of all vulnerabilities and testing instructions
+- [CODEQL_RESULTS.md](CODEQL_RESULTS.md) - CodeQL test results showing all detected vulnerabilities
+
+## CodeQL Test Results
+
+✅ CodeQL successfully detected **6 out of 6** intentional vulnerabilities:
+- 5 Java vulnerabilities (SQL Injection, Command Injection, Path Traversal, Unsafe Deserialization, XSS)
+- 1 JavaScript vulnerability (DOM-based XSS)
